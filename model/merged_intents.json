@@ -1,0 +1,310 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["Hi", "Hello", "Good morning", "Good afternoon", "Good evening", "Hey", "සුබ උදෑසනක්", "සුබ සන්ධ්‍යාවක්", "வணக்கம்", "காலை வணக்கம்", "மாலை வணக்கம்"],
+      "responses": [
+        "Hello! I'm Grow Mate. How can I help with your paddy or corn farm today?",
+        "හෙලෝ! මම ග්‍රෝ මේට්. ඔබේ වී හෝ ඇලිගැට්ටු ගොවිපලට අද මට උදව් කළ හැක්කේ කෙසේද?",
+        "வணக்கம்! நான் குரோ மேட். உங்கள் நெல் அல்லது மக்காச்சோள பண்ணைக்கு இன்று நான் எப்படி உதவ முடியும்?"
+      ]
+    },
+    {
+      "tag": "farewell",
+      "patterns": ["Bye", "Goodbye", "See you", "Thank you, goodbye", "ආයුබෝවන්", "පසුව හමුවෙමු", "பிரியாவிடை", "பிறகு பார்க்கலாம்"],
+      "responses": [
+        "Goodbye! May your paddy and corn fields flourish!",
+        "ආයුබෝවන්! ඔබේ වී සහ ඇලිගැට්ටු කෙත් ශුභාරංචියක් වේවා!",
+        "பிரியாவிடை! உங்கள் நெல் மற்றும் மக்காச்சோள வயல்கள் வளம்பெறுக!"
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "Thank you very much", "ස්තූතියි", "බොහොම ස්තූතියි", "நன்றி", "மிக்க நன்றி"],
+      "responses": [
+        "You're welcome! Always here for your paddy and corn farming needs.",
+        "ඔබව සාදරයෙන් පිළිගනිමි! ඔබේ වී සහ ඇලිගැට්ටු ගොවිතැනේ අවශ්‍යතා සඳහා සැමවිටම ඉදිරියෙන් සිටිමි.",
+        "நீங்கள் வரவேற்கப்படுகிறீர்கள்! உங்கள் நெல் மற்றும் மக்காச்சோள விவசாய தேவைகளுக்கு எப்போதும் இங்கே உள்ளேன்."
+      ]
+    },
+    {
+      "tag": "paddy_planting_time",
+      "patterns": ["When should I plant paddy?", "Paddy planting season?", "Best time for paddy?","වී බිමදමන කාලය?", "அரிசி விதைக்கும் காலம் எப்போது?", "நெல் நடவு காலம் எது?"],
+      "responses": [
+        "Paddy: Maha season (Oct-Jan) & Yala season (May-Aug). Choose based on your region's rainfall.",
+        "වී: මහ කන්නය (ඔක්තෝ-ජන) සහ යල කන්නය (මැයි-අගෝ). ඔබේ වී පොහොර යෙදිය යුත්තේ කවදාද? ප්‍රදේශයේ වර්ෂාපතනය අනුව තෝරාගන්න.",
+        "நெல்: மகா பருவம் (அக்-ஜன) மற்றும் யால பருவம் (மே-ஆக). உங்கள் பிராந்தியத்தின் மழையின் அடிப்படையில் தேர்வு செய்யவும்."
+      ]
+    },
+    {
+      "tag": "paddy_seed_selection",
+      "patterns": ["Best paddy seeds?", "Good paddy varieties?", "හොඳම වී වර්ග", "வெற்றி தரும் நெல் வகைகள்?", "நெல் விதைகள் பற்றி"],
+      "responses": [
+        "Popular: BG 358, BG 360, At 362, Suwandel. BG varieties suit both seasons.",
+        "ජනප්‍රිය: BG 358, BG 360, At 362, සුවන්දෙල්. BG වර්ග දෙපසටම ගැලපේ.",
+        "பிரபலமானவை: BG 358, BG 360, At 362, சுவண்டல். BG வகைகள் இரண்டு பருவங்களுக்கும் ஏற்றது."
+      ]
+    },
+    {
+      "tag": "paddy_soil_preparation",
+      "patterns": ["How to prepare soil for paddy?", "Paddy land preparation", "වී බිම් සූදානම", "நெல் நிலத்தை எப்படி தயார் செய்வது?", "நெல் சாகுபடி முன் தயாரிப்பு"],
+      "responses": [
+        "Plow 2-3 times, level field, ensure good drainage. Apply organic manure before final plowing.",
+        "වාර 2-3 ක් ගොයම් කර, කෙත් සමතලා කර, හොඳ ජලාපවහනයක් සහතික කරන්න. අවසාන ගොයමට පෙර කාබනික පොහොර යොදන්න.",
+        "2-3 முறை உழவு செய்து, வயலைச் சமன்படுத்தி, நல்ல வடிகால் உறுதி செய்யவும். இறுதி உழவுக்கு முன் கரிம உரம் இடவும்."
+      ]
+    },
+    {
+      "tag": "paddy_fertilizer_schedule",
+      "patterns": ["Paddy fertilizer timing?", "When to apply fertilizer to paddy?", "", "நெல்லுக்கு எப்போது உரம் இடுவது?", "அரிசி உரம் கொடுக்கும் நேரம்"],
+      "responses": [
+        "Basal: TSP at planting. 1st top dressing: Urea at 3 weeks. 2nd: Urea at panicle initiation.",
+        "මූලික: රෝපණයේදී TSP. පළමු ඉහළ පොහොර: සති 3 කට යූරියා. දෙවන: පැනිකල් ආරම්භයේදී යූරියා.",
+        "அடிப்படை: நடவின் போது TSP. 1 வது மேல் உரமிடுதல்: 3 வாரங்களுக்கு யூரியா. 2 வது: பானிகிள் தொடக்கத்தில் யூரியா."
+      ]
+    },
+    {
+      "tag": "paddy_water_management",
+      "patterns": ["Paddy water level?", "How much water for paddy?", "වී වතුර මට්ටම", "நெல்லுக்கு எவ்வளவு தண்ணீர்?", "அரிசி நீர் மேலாண்மை"],
+      "responses": [
+        "Maintain 2-5 cm during vegetative stage. Increase to 5-10 cm during flowering.",
+        "වැඩෙන අවදියේදී සෙ.මී. 2-5 පවත්වා ගන්න. මල් බැඳීමේදී සෙ.මී. 5-10 දක්වා වැඩි කරන්න.",
+        "வேகமாக வளரும் கட்டத்தில் 2-5 செ.மீ பராமரிக்கவும். பூக்கும் போது 5-10 செ.மீ வரை அதிகரிக்கவும்."
+      ]
+    },
+    {
+      "tag": "paddy_weed_control",
+      "patterns": ["How to control weeds in paddy?", "Paddy weed management", "වී වල් නාශක", "நெல் களையெடுப்பு", "அரிசி களை கட்டுப்பாடு"],
+      "responses": [
+        "Hand weed at 20 and 40 days after transplanting. Herbicides: Pretilachlor or Butachlor.",
+        "පොරවන ලද දින 20 සහ 40 න් පසු අතින් වල් පිලිස්සන්න. වල් නාශක: ප්‍රෙටිලැක්ලෝර් හෝ බියුටැක්ලෝර්.",
+        "நடவு செய்த 20 மற்றும் 40 நாட்களுக்குப் பிறகு கையால் களை எடுக்கவும். களைக்கொல்லிகள்: பிரெட்டிலாக்ளோர் அல்லது பியூட்டாக்ளோர்."
+      ]
+    },
+    {
+      "tag": "paddy_pest_identification",
+      "patterns": ["Common paddy pests?", "What pests attack paddy?", "වී කෘමි", "நெல் பூச்சிகள் யாவை?", "அரிசி பூச்சி பட்டியல்"],
+      "responses": [
+        "Major pests: Brown plant hopper, Stem borer, Leaf folder, Gall midge.",
+        "ප්‍රධාන කෘමීන්: බ්‍රවුන් ප්ලාන්ට් හොපර්, කඳ බෝරර්, කොළ ගොනුකරු, ගෝල් මිඩ්ජ්.",
+        "முக்கிய பூச்சிகள்: பழுப்பு தாவர ஹாப்பர், தண்டு துளையிடும் புழு, இலை மடிப்பான், கால் மிட்ஜ்."
+      ]
+    },
+    {
+      "tag": "paddy_disease_identification",
+      "patterns": ["Common paddy diseases?", "Paddy leaf diseases?", "වී රෝග", "நெல் நோய்கள்", "அரிசி நோய் வகைகள்"],
+      "responses": [
+        "Blast (leaf and neck), Brown spot, Bacterial leaf blight, Sheath blight.",
+        "පිපිරීම (කොළ සහ කෙහෙ), බ්‍රවුන් ස්පොට්, බැක්ටීරියා කොළ බ්ලයිට්, ෂීත් බ්ලයිට්.",
+        "பிளாஸ்ட் (இலை மற்றும் கழுத்து), பழுப்பு புள்ளி, பாக்டீரியா இலை கருகல், ஷீத் ப்ளைட்."
+      ]
+    },
+    {
+      "tag": "paddy_harvest_indicator",
+      "patterns": ["When is paddy ready for harvest?", "Paddy maturity signs?", "වී පක්ෂපාතී වන ආකාරය", "நெல் அறுவடைக்கு தயார் என்பதை எப்படி அறிவது?", "அரிசி அறுவடை குறிப்புகள்"],
+      "responses": [
+        "Harvest when 80% grains turn golden yellow, moisture 20-25%. Grains hard when bitten.",
+        "දැනිම 80% ක් රන්වන් පැහැයට හැරෙන විට, තෙතමනය 20-25% කින් කපා ගන්න. කැම කෑමේ දී තද වේ.",
+        "80% தானியங்கள் பொன்னிற மஞ்சள் நிறமாக மாறும் போது அறுவடை செய்யுங்கள், ஈரப்பதம் 20-25%. கடிக்கும் போது தானியங்கள் கடினமாக இருக்கும்."
+      ]
+    },
+    {
+      "tag": "paddy_yield_estimation",
+      "patterns": ["Average paddy yield?", "How much paddy per acre?", "වී අස්වැන්න", "ஒரு ஏக்கருக்கு எத்தனை நெல்?", "அரிசி மகசூல் கணிப்பு"],
+      "responses": [
+        "Good management: 4-5 MT/ha (1600-2000 kg/acre). Hybrids can yield 6-7 MT/ha.",
+        "හොඳ කළමනාකරණය: හෙක්ටයාරයකට ටොන් 4-5 (ඒකරයකට කිලෝ 1600-2000). සංකර ටොන් 6-7 ක් දක්වා ලබා ගත හැකිය.",
+        "நல்ல மேலாண்மை: 4-5 MT/ha (ஏக்கருக்கு 1600-2000 கிலோ). கலப்பினங்கள் 6-7 MT/ha வரை விளையும்."
+      ]
+    },
+    {
+      "tag": "corn_planting_time",
+      "patterns": ["When to plant corn?", "Best corn season?", "ඇලිගැට්ටු වගා කාලය?", "சோளம் நடவு காலம்?", "மக்காச்சோளம் விதைக்கும் நேரம்"],
+      "responses": [
+        "Corn: Yala (May-Aug) & Maha (Sep-Jan). Plant with monsoon onset for rainfed.",
+        "ඇලිගැට්ටු: යල (මැයි-අගෝ) සහ මහ (සැප්-ජන). වර්ෂාපතනය සමඟ වැසි සඳහා වවන්න.",
+        "மக்காச்சோளம்: யாலா (மே-ஆக) மற்றும் மகா (செப்-ஜன). மழைக்கு பருவமழை தொடக்கத்தில் நடவு செய்யுங்கள்."
+      ]
+    },
+    {
+      "tag": "corn_seed_selection",
+      "patterns": ["Best corn varieties?", "Good corn seeds?", "හොඳම ඇලිගැට්ටු වර්ග", "நல்ல சோள வகைகள்?", "மக்காச்சோள விதைகள் பற்றி"],
+      "responses": [
+        "Grain corn: Pacific 999, Ganga 11. Sweet corn: Sugar 75, Madhuri.",
+        "දළු ඇලිගැට්ටු: පැසිෆික් 999, ගංගා 11. ස්වීට් කෝන්: ෂුගර් 75, මාධුරි.",
+        "தானிய சோளம்: பசிபிக் 999, கங்கா 11. இனிப்பு சோளம்: சர்க்கரை 75, மாதுரி."
+      ]
+    },
+    {
+      "tag": "corn_soil_requirements",
+      "patterns": ["Best soil for corn?", "Corn land preparation?", "ඇලිගැට්ටු බිම් අවශ්යතා", "சோளத்திற்கான நிலம்", "மக்காச்சோள மண் தகுதி"],
+      "responses": [
+        "Corn needs well-drained loamy soil, pH 5.8-7.0. Prepare fine tilth with 2-3 plowings.",
+        "ඇලිගැට්ටු වලට හොඳින් ජලාපවහනය වන ලොම් පස, pH 5.8-7.0 අවශ්‍ය වේ. වාර 2-3 ක් ගොයම් කිරීමෙන් සුභ සූදානමක් කරන්න.",
+        "மக்காச்சோளத்திற்கு நல்ல வடிகால் கொண்ட களிமண் மண், pH 5.8-7.0 தேவை. 2-3 உழவுகளுடன் நேர்த்தியான விதைப்பு தயார் செய்யுங்கள்."
+      ]
+    },
+    {
+      "tag": "corn_fertilizer_schedule",
+      "patterns": ["Corn fertilizer timing?", "When to fertilize corn?", "ඇලිගැට්ටු පොහොර කාලය", "சோளத்திற்கு எப்போது உரம் இடுவது?", "மக்காச்சோள உரம் கொடுக்கும் முறை"],
+      "responses": [
+        "Basal: Full P + 1/3 N + 1/3 K at planting. Top dress at knee-high (3-4 weeks) and tasseling.",
+        "මූලික: රෝපණයේදී සම්පූර්ණ P + 1/3 N + 1/3 K. කොලය ඉහළ (සති 3-4) සහ ටැසලින් වේලාවේදී ඉහළ පොහොර.",
+        "அடிப்படை: நடவின் போது முழு P + 1/3 N + 1/3 K. முழங்கால் உயரத்தில் (3-4 வாரங்கள்) மற்றும் டேசலிங் நேரத்தில் மேல் உரமிடுதல்."
+      ]
+    },
+    {
+      "tag": "corn_spacing",
+      "patterns": ["Corn planting distance?", "How far apart to plant corn?", "ඇලිගැට්ටු රෝපණ දුර", "சோளம் நடும் தூரம்", "மக்காச்சோளம் நடவு இடைவெளி"],
+      "responses": [
+        "60 cm between rows, 25 cm between plants. Population: 66,000 plants/ha.",
+        "පේළි අතර සෙ.මී. 60, බෝග අතර සෙ.මී. 25. ජනගහනය: හෙක්ටයාරයකට බෝග 66,000.",
+        "வரிசைகளுக்கு இடையே 60 செ.மீ, தாவரங்களுக்கு இடையே 25 செ.மீ. மக்கள் தொகை: ஹெக்டேருக்கு 66,000 தாவரங்கள்."
+      ]
+    },
+    {
+      "tag": "corn_water_needs",
+      "patterns": ["How much water for corn?", "Corn irrigation schedule?", "ඇලිගැට්ටු වතුර අවශ්යතා", "சோளத்திற்கு தண்ணீர் எவ்வளவு?", "மக்காச்சோள நீர்ப்பாசனம்"],
+      "responses": [
+        "Corn needs 500-600 mm water. Critical stages: Knee-high, tasseling, silking, grain filling.",
+        "ඇලිගැට්ටු වලට මි.මී. 500-600 ක් ජලය අවශ්‍ය වේ. වැදගත් අදියර: කණ උස, ටැසලින්, සිල්කින්, ධාන්‍ය පිරවීම.",
+        "மக்காச்சோளத்திற்கு 500-600 மிமீ தண்ணீர் தேவை. முக்கியமான நிலைகள்: முழங்கால் உயரம், டேசலிங், பட்டுநூல், தானிய நிரப்புதல்."
+      ]
+    },
+    {
+      "tag": "corn_pest_identification",
+      "patterns": ["Common corn pests?", "What insects attack corn?", "ඇලිගැට්ටු කෘමි", "சோள பூச்சிகள்", "மக்காச்சோளத்தை தாக்கும் பூச்சிகள்"],
+      "responses": [
+        "Fall Armyworm (most destructive), Stem borer, Shoot fly, Corn earworm.",
+        "ෆෝල් ආර්මිවර්ම් (වඩාත් විනාශකාරී), කඳ බෝරර්, ෂූට් ෆ්ලයි, කෝන් ඊයර්වර්ම්.",
+        "ஃபால் ஆர்மிவொர்ம் (மிகவும் அழிவுகரமானது), தண்டு துளையிடும் புழு, ஷூட் ஈ, கார்ன் ஈயர்வொர்ம்."
+      ]
+    },
+    {
+      "tag": "corn_disease_identification",
+      "patterns": ["Common corn diseases?", "Corn leaf problems?", "ඇලිගැට්ටු රෝග", "சோள நோய்கள்", "மக்காச்சோள நோய் அடையாளம்"],
+      "responses": [
+        "Leaf blight, Rust, Stalk rot, Head smut, Maize streak virus.",
+        "කොළ බ්ලයිට්, මැඩ, කඳ පුලුස්සා දැමීම, හෙඩ් ස්මට්, බඩ ඉරිඟු ඉරි සෑදීම.",
+        "இலை கருகல், துரு, தண்டு அழுகல், தலை புகை, மக்காச்சோளம் ஸ்ட்ரீக் வைரஸ்."
+      ]
+    },
+    {
+      "tag": "corn_pollination",
+      "patterns": ["Corn pollination issues?", "Why no corn kernels?", "ඇලිගැට්ටු පරාගනය", "சோள மகரந்தச் சேர்க்கை", "மக்காச்சோள மகரந்த சேர்க்கை பிரச்சனைகள்"],
+      "responses": [
+        "Corn is wind pollinated. Plant in blocks, not single rows. Avoid drought during tasseling.",
+        "ඇලිගැට්ටු සුළඟින් පරාගණය කරයි. තනි පේළිවලට නොව බ්ලොක් වලට රෝපණය කරන්න. ටැසලින් වේලාවේ නියඟයන් වළක්වන්න.",
+        "மக்காச்சோளம் காற்று மூலம் மகரந்தச் சேர்க்கை செய்யப்படுகிறது. ஒற்றை வரிசைகளில் அல்ல, தொகுதிகளில் நடவு செய்யுங்கள். டேசலிங் நேரத்தில் வறட்சியை தவிர்க்கவும்."
+      ]
+    },
+    {
+      "tag": "corn_harvest_time",
+      "patterns": ["When to harvest corn?", "Corn maturity signs?", "ඇලිගැට්ටු අස්වන වේලාව", "சோளம் பழுக்கும் அறிகுறிகள்", "மக்காச்சோள அறுவடை நேரம்"],
+      "responses": [
+        "Sweet corn: 18-24 days after silking. Grain corn: 90-120 days when kernels hard.",
+        "ස්වීට් කෝන්: සිල්කින්ගෙන් දින 18-24 කට පසු. ධාන්‍ය ඇලිගැට්ටු: දළු දැඩි වූ විට දින 90-120.",
+        "இனிப்பு சோளம்: பட்டுநூல் தோன்றிய 18-24 நாட்களுக்குப் பிறகு. தானிய சோளம்: மணிகள் கடினமாகும்போது 90-120 நாட்கள்."
+      ]
+    },
+    {
+      "tag": "corn_yield_estimation",
+      "patterns": ["Average corn yield?", "How much corn per acre?", "ඇලිගැට්ටු අස්වැන්න", "ஒரு ஏக்கருக்கு எத்தனை சோளம்?", "மக்காச்சோள மகசூல் எவ்வளவு?"],
+      "responses": [
+        "Grain corn: 3-4 MT/ha (1200-1600 kg/acre). Sweet corn: 8-10 tons/ha.",
+        "ධාන්‍ය ඇලිගැට්ටු: හෙක්ටයාරයකට ටොන් 3-4 (ඒකරයකට කිලෝ 1200-1600). ස්වීට් කෝන්: හෙක්ටයාරයකට ටොන් 8-10 කි.",
+        "தானிய சோளம்: 3-4 MT/ha (ஏக்கருக்கு 1200-1600 கிலோ). இனிப்பு சோளம்: ஹெக்டேருக்கு 8-10 டன்."
+      ]
+    },
+    {
+      "tag": "paddy_vs_corn_comparison",
+      "patterns": ["Paddy or corn which is better?", "Compare paddy and corn", "පැඩි සහ ඇලිගැට්ටු සංසන්දනය", "நெல் vs சோளம்", "அரிசி vs மக்காச்சோளம்"],
+      "responses": [
+        "Paddy: Higher water need, stable price, government support. Corn: Less water, faster growth, multiple uses.",
+        "වී: ජල අවශ්‍යතාව අධික, ස්ථාවර මිල, රජයේ ආධාර. ඇලිගැට්ටු: අඩු ජලය, වේගවත් වර්ධනය, බහු භාවිත.",
+        "நெல்: அதிக நீர் தேவை, நிலையான விலை, அரசு ஆதரவு. மக்காச்சோளம்: குறைந்த தண்ணீர், வேகமான வளர்ச்சி, பல நோக்கு பயன்கள்."
+      ]
+    },
+    {
+      "tag": "intercropping_paddy_corn",
+      "patterns": ["Can I grow paddy and corn together?", "Intercropping paddy corn", "පැඩි සහ ඇලිගැට්ටු එකට වගා කළ හැකිද?", "நெல் மற்றும் சோளம் ஒன்றாக வளர்க்க முடியுமா?", "அரிசி மற்றும் மக்காச்சோளம் இணை பயிர்"],
+      "responses": [
+        "Not recommended together in same field due to different water needs. But can rotate seasons.",
+        "විවිධ ජල අවශ්‍යතා හේතුවෙන් එකම කෙත්වල එකට නිර්දේශ නොකෙරේ. නමුත් සෘතු භ්‍රමණය කළ හැකිය.",
+        "வெவ்வேறு நீர் தேவைகள் காரணமாக ஒரே வயலில் ஒன்றாக பரிந்துரைக்கப்படவில்லை. ஆனால் பருவங்களை சுழற்சி முறையில் மாற்ற முடியும்."
+      ]
+    },
+    {
+      "tag": "government_support_paddy",
+      "patterns": ["Paddy subsidy?", "Government help for paddy farmers?", "පැඩි ගොවීන්ට රජයේ ආධාර", "நெல் விவசாயிகளுக்கு அரசு உதவி", "அரிசி விவசாயிகளுக்கான உதவிகள்"],
+      "responses": [
+        "Fertilizer subsidy, guaranteed price, crop insurance. Contact Provincial Agriculture Dept.",
+        "පොහොර උපයෝගිතාව, සහතික මිල, අස්වැන්න රක්ෂණය. පළාත් කෘෂිකර්ම දෙපාර්තමේන්තුව අමතන්න.",
+        "உர மானியம், உத்தரவாத விலை, பயிர் காப்பீடு. மாகாண வேளாண்மை துறையை தொடர்பு கொள்ளவும்."
+      ]
+    },
+    {
+      "tag": "government_support_corn",
+      "patterns": ["Corn subsidy?", "Help for corn farmers?", "ඇලිගැට්ටු ගොවීන්ට ආධාර", "சோள விவசாயிகளுக்கான உதவிகள்", "மக்காச்சோள விவசாயிகளுக்கான நன்கொடை"],
+      "responses": [
+        "Seed subsidy programs available. Some provinces offer support for corn cultivation.",
+        "බීජ උපයෝගීතා වැඩසටහන් ලබා ගත හැකිය. සමහර පළාත් ඇලිගැට්ටු වගාව සඳහා ආධාර ලබා දේ.",
+        "விதை மானிய திட்டங்கள் கிடைக்கின்றன. சில மாகாணங்கள் மக்காச்சோள சாகுபடிக்கு ஆதரவு வழங்குகின்றன."
+      ]
+    },
+    {
+      "tag": "market_price_paddy",
+      "patterns": ["Current paddy price?", "Paddy selling rate?", "පැඩි මිල", "நெல் விலை", "அரிசி சந்தை விலை"],
+      "responses": [
+        "Government guaranteed price: ~LKR 90-100/kg. Market price varies by quality and season.",
+        "රජයේ සහතික මිල: ~LKR 90-100/කිලෝ. වෙළඳපල මිල ගුණාත්මකභාවය සහ සෘතුව අනුව වෙනස් වේ.",
+        "அரசு உத்தரவாத விலை: ~LKR 90-100/கிலோ. சந்தை விலை தரம் மற்றும் பருவத்திற்கு ஏற்ப மாறுபடும்."
+      ]
+    },
+    {
+      "tag": "market_price_corn",
+      "patterns": ["Current corn price?", "Corn selling rate?", "ඇලිගැට්ටු මිල", "சோளம் விலை", "மக்காச்சோள சந்தை விலை"],
+      "responses": [
+        "Grain corn: LKR 80-120/kg. Sweet corn: LKR 120-180/kg. Prices higher for animal feed corn.",
+        "ධාන්‍ය ඇලිගැට්ටු: LKR 80-120/කිලෝ. ස්වීට් කෝන්: LKR 120-180/කිලෝ. සතුන්ගේ ආහාර ඇලිගැට්ටු සඳහා මිල ඉහළයි.",
+        "தானிய சோளம்: LKR 80-120/கிலோ. இனிப்பு சோளம்: LKR 120-180/கிலோ. விலங்கு தீவன சோளத்திற்கு விலைகள் அதிகம்."
+      ]
+    },
+    {
+      "tag": "paddy_storage_methods",
+      "patterns": ["How to store paddy?", "Paddy storage tips", "පැඩි ගබඩා කිරීම", "நெல் சேமிப்பு முறைகள்", "அரிசி சேமிப்பு வழிகள்"],
+      "responses": [
+        "Dry to 14% moisture. Store in airtight containers or Paddy storage bags (BOPP bags).",
+        "තෙතමනය 14% කට වියළන්න. වාතාශ්‍රිත භාජන හෝ පැඩි ගබඩා බෑග් (BOPP බෑග්) වල ගබඩා කරන්න.",
+        "ஈரப்பதத்தை 14% வரை உலரவைக்கவும். காற்று புகாத கொள்கலன்களில் அல்லது பட்டி சேமிப்பு பைகளில் (BOPP பைகள்) சேமிக்கவும்."
+      ]
+    },
+    {
+      "tag": "corn_storage_methods",
+      "patterns": ["How to store corn?", "Corn storage tips", "ඇලිගැට්ටු ගබඩා කිරීම", "சோளம் சேமிப்பு", "மக்காச்சோள சேமிப்பு முறைகள்"],
+      "responses": [
+        "Dry to 13-14% moisture. Store shelled corn in clean, dry bins with rodent protection.",
+        "තෙතමනය 13-14% කට වියළන්න. පිටාර ඇලිගැට්ටු පිරිසිදු, වියළි බින්නු වල ගබඩා කරන්න, මීයන් වලක්වා ගන්න.",
+        "ஈரப்பதத்தை 13-14% வரை உலரவைக்கவும். துப்புரவான, உலர்ந்த கூடைகளில் துண்டுகளாக்கப்பட்ட சோளத்தை எலி பாதுகாப்புடன் சேமிக்கவும்."
+      ]
+    },
+    {
+      "tag": "paddy_problem_troubleshooting",
+      "patterns": ["Paddy not growing well?", "Paddy field problems?", "පැඩි ගැටලු", "நெல் பிரச்சனைகள்", "அரிசி சிக்கல்கள்"],
+      "responses": [
+        "Common issues: Nutrient deficiency (yellow leaves), water stress, pest/disease attack. Send photos for diagnosis.",
+        "පොදු ගැටළු: පෝෂක ඌණතාවය (හෙළ කොළ), ජල ආතතිය, කෘමි/රෝග ප්‍රහාර. විනිශ්චය සඳහා ඡායාරූප එවන්න.",
+        "பொதுவான பிரச்சனைகள்: ஊட்டச்சத்து குறைபாடு (மஞ்சள் இலைகள்), நீர் மன அழுத்தம், பூச்சி/நோய் தாக்குதல். நோய் கண்டறிதலுக்கு புகைப்படங்களை அனுப்பவும்."
+      ]
+    },
+    {
+      "tag": "corn_problem_troubleshooting",
+      "patterns": ["Corn not growing well?", "Corn field problems?", "ඇලිගැට්ටු ගැටලු", "சோள பிரச்சனைகள்", "மக்காச்சோள சிக்கல்கள்"],
+      "responses": [
+        "Common: Poor germination, nutrient deficiency, pollination failure, pest damage. Check soil moisture and fertility.",
+        "පොදු: නරක අංකුරණය, පෝෂක ඌණතාව, පරාගණය අසමත් වීම, කෘමි හානි. පස තෙතමනය සහ සාරවත් බව පරීක්ෂා කරන්න.",
+        "பொதுவான: மோசமான முளைப்பு, ஊட்டச்சத்து குறைபாடு, மகரந்தச் சேர்க்கை தோல்வி, பூச்சி சேதம். மண்ணின் ஈரப்பதம் மற்றும் வளத்தன்மையை சரிபார்க்கவும்."
+      ]
+    }
+  ]
+}
