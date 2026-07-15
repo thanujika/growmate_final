@@ -77,7 +77,7 @@ growmate_app/
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/Yadhurshini/Growmate.git
+git clone https://github.com/thanujika/Growmate.git
 ```
 
 2. Navigate to the project folder:
