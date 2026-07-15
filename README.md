@@ -100,7 +100,7 @@ flutter run
 
 ## 👩‍💻 Author
 
-**Yadhurshini Shathivel**
+**Dinithi Thanujika**
 Final Year Undergraduate
 
 ---
